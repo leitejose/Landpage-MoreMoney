@@ -1,0 +1,251 @@
+body{
+  background-color:#61C454;
+  height: 100vh;
+  max-width:100%;
+  margin: 0px;
+  padding: 0px;
+}
+/*title the page*/
+.more{
+  color: #FFFFFF;
+}
+.money{
+  color: #FFBE16;
+}
+.title{
+  display: flex;
+  margin-left: 73px;
+  padding-top: 10px;
+  font-family:'Sen', sans-serif;
+  font-size: 48px;
+}
+h1{color: #FFFFFF;
+  font-family:'Sen', sans-serif;
+  font-size: 48px;
+}
+/*first section the page*/
+.section_1{
+  display: flex;
+  margin-top: 60px;
+  width: auto;
+  height: 320px;
+}
+.text_main h1{
+  margin-left: 63px;
+  height: 200px;
+}
+.text_main a{
+  display: block;
+  text-align: center;
+  width: 300px;
+  padding: 1px 1px;
+  background-color: #FCC026;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family:'Sen', sans-serif;
+  font-size: 18px;
+  margin-left: 63px;
+  border-radius: 30px;
+}
+.text_main h2{
+justify-items: center;
+}
+.text{
+  margin-left: 63px;
+  font-size: 60px;
+}
+.image_rocket{
+  margin-left: 70px;
+ 
+}
+.image_mockup{
+  margin-left: 100px;
+  margin-top: -100px;
+}
+.section_cards{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FCC026;
+  margin-top: 100px;
+  height: 300px;
+  align-items: center;
+  
+}
+.cards_general{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card1,.card2,.card3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #61C454;
+  border-radius: 5px;
+  width: 210px;
+  height: 220px;
+  margin-left: 100px;
+}
+.card1,.card2,.card3 h3{
+  display: flex;
+  color: #FFFFFF;
+  font-family:'Sen', sans-serif;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+#image{
+  margin-top: 10px;
+}
+
+/*footer the page*/
+Footer{
+  display: flex;
+  justify-content: center;
+  background-color: #61C454;
+  height: 80px;
+  color: #FFFFFF;
+  font-family:'Sen', sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+.footer_content{
+  display: flex;
+  flex-direction: column;
+}
+.redes_sociais{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0px;
+}
+.linkedin{
+  size: 50px;
+}
+
+/*responsivite page mobile*/
+@media (max-width: 426px) {
+  body{
+    
+    background-color:#61C454;
+    height: 100vh;
+    max-width:100vw;
+    margin: 0px;
+    padding: 0px;
+  }
+  /*title the page*/
+  .more{
+    color: #FFFFFF;
+  }
+  .money{
+    color: #FFBE16;
+  }
+  .title{
+    display: flex;
+    margin-left: 73px;
+    padding-top: 10px;
+    font-family:'Sen', sans-serif;
+    font-size: 48px;
+    justify-content: center;
+    position: relative;
+  }
+  h1{color: #FFFFFF;
+    font-family:'Sen', sans-serif;
+    font-size: 48px;
+  }
+  /*first section the page*/
+  .section_1{
+    display: flex;
+    width: auto;
+    height: 320px;
+    align-items: center;
+  }
+  .text_main h1{
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  .text_main a{
+    display: block;
+    text-align: center;
+    width: 200px;
+    padding: 1px 1px;
+    background-color: #FCC026;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family:'Sen', sans-serif;
+    font-size: 14px;
+    margin-left: 63px;
+    margin-top: 140px;
+    border-radius: 30px;
+  }
+  .text_main h2{
+  justify-items: center;
+  }
+  .text{
+    margin-left: 63px;
+    font-size: 60px;
+  }
+  .image_rocket{
+   display: flex;
+   position: relative;
+   margin-left: -160px;
+   margin-top: 60px;
+
+  }
+  .image_mockup{
+  display:none;
+  
+    
+  }
+  
+  .section_cards{
+    display: flex;
+    flex-direction: column;
+    background-color: #FCC026;
+    margin-top: 100px;
+    height: fit-content;
+    width: 100vh;
+    
+  }
+  .card1,.card2,.card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #61C454;
+    border-radius: 5px;
+    width: 210px;
+    height: 220px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .bottom_page{
+display: flex;
+
+  }
+ /*footer the page*/
+Footer{
+  display: flex;
+  justify-content: center;
+  background-color: #d53c3c;
+  height: 150px;
+  color: #FFFFFF;
+  font-family:'Sen', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  width: 100vh;
+}
+.footer_content{
+  display: flex;
+  flex-direction: column;
+}
+.redes_sociais{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0px;
+}
+.linkedin{
+  
+}   
+}
